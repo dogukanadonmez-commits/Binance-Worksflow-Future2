@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-31T07:57:17.891555+00:00",
+  "generatedAt": "2026-08-31T08:05:24.513341+00:00",
   "health": {
-    "generatedAt": "2026-08-31T07:57:17.891555+00:00",
+    "generatedAt": "2026-08-31T08:05:24.513341+00:00",
     "universe": false,
     "batch": false,
     "ohlcv": false,
     "source": null,
     "errors": [
-      "binance_universe:ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+      "binance_universe:HTTPError('451 Client Error:  for url: https://fapi.binance.com/fapi/v1/exchangeInfo')",
       "binance_batch:HTTPError('451 Client Error:  for url: https://fapi.binance.com/fapi/v1/ticker/24hr')",
       "bybit_batch:HTTPError('403 Client Error: Forbidden for url: https://api.bybit.com/v5/market/tickers?category=linear')",
       "BTCUSDT:binance_ohlcv:HTTPError('451 Client Error:  for url: https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1d&limit=120')",
